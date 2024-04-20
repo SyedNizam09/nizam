@@ -1,0 +1,52 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        section{
+            display: grid;
+            justify-content: center;
+            align-content: center;
+            height: 100vh;
+            grid-template-columns: auto auto;
+            gap: 5rem;
+        }
+        button{
+            padding: 10px;
+            border: 2px solid green;
+            background-color: white;
+            border-radius: 5px;
+        }
+        img{
+            border-radius: 5px;
+        }
+        .main{
+            position: relative;
+        }
+        .overlap{
+            position: absolute;
+            top: 30%;
+            left: 50%;
+        }
+        .para{
+            margin-top: 40px;
+        }
+    </style>
+     <section>
+        <div class="main">
+            <img src="https://img.freepik.com/premium-photo/woman-watching-mobile-phone_328191-2861.jpg" alt="" width="600" height="300px">
+            <img src="https://i.ytimg.com/vi/bgI2v_9MCxE/maxresdefault.jpg" alt="" width="280px" height="210px" class="overlap">
+        </div>
+        <div class="para">
+            <h1>The platform of platforms</h1>
+            <p>Behind every great experience is a great workflow.As the <br>
+            foundation for all digital workflows,the now platform connects <br> people,functions and systems across your organisation</p> 
+            <button>Explore Platform</button>
+        </div>
+     </section>
+
+    
+</body>
+</html>
